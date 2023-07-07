@@ -1,0 +1,126 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    margin: 30px 50px;
+}
+
+.content{
+    display:flex;
+    flex-direction: row;
+    
+}
+
+img{
+    border:1px solid gray;
+    width: 37%;
+}
+
+.text{
+    padding:20px 40px;
+}
+
+h3{
+    color:#525457;
+}
+
+h4{
+    color:#4B4D50;
+}
+
+.shrt-txt{
+    color:#8a8c8e;
+    padding-top: 15px;
+}
+
+.icon ul li{
+    list-style: none;
+}
+
+.icon{
+    display: flex;
+    gap: 3px;
+    padding-top: 15px;
+}
+
+.price{
+    display: flex;
+    align-items:  center;
+    gap: 8px;
+    padding-top: 15px;
+}
+
+.price h5{
+    color: #4b4e4f;
+}
+
+.price h6{
+    text-decoration: line-through;
+    color: #555859;
+}
+
+.discont{
+    color: #60867F;
+}
+
+.about{
+    padding-top: 15px;
+    color: #303233;
+}
+
+.details{
+    display:flex;
+    gap: 100px;
+    color:#4B4D50;
+    padding-top: 15px;
+}
+
+.size p{
+    padding-top: 15px;
+}
+
+.left b p{
+    line-height: 20px;
+}
+
+.right p{
+    line-height: 20px;
+}
+
+.radio{
+    padding-top: 15px;
+}
+
+.number{
+    margin-top: 15px;
+    width: 35px;
+}
+
+.btn, .buy, .add{
+    border: none;
+}
+.btn{
+    display: flex;
+    gap: 20px;
+}
+
+.buy{
+    color: white;
+    background-color:#2A70F4;
+    padding: 12px 20px;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+
+.add{
+    color: black;
+    background-color:#FFFFFF;
+    padding: 12px 20px;
+    margin-top: 15px;
+    border: 1px solid #C8C8C8;
+    border-radius: 5px;
+}
