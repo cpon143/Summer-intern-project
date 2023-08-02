@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.nev{
+    display: flex;
+    padding: 10px 20px;
+    background-color: #ffd70094;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nev ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+li:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.top-part{
+    display: flex;
+    align-items: center;
+    padding: 30px 30px;
+}
+
+h1{
+    font-weight: 800;
+    color: #262525; 
+}
+
+.pr1{
+    width: 55%;
+}
+
+.buy{
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 20px;
+    color: white;
+    background-color:#baa31fca ;
+    border: none;
+    margin-top: 20px;
+}
+
+.buy:hover{
+    cursor: pointer;
+}
+
+.top-btm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 0;
+    background-color: #ffd70094;
+}
+
+h2, h6{
+    color: #262525;
+}
+
+.store{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    margin-top: 20px;
+}
+
+.bottom{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding: 60px 50px;
+}
+
+.phone2{
+    width: 60%;
+}
+
+.right{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+}
+
+b{
+    color: #262525;
+}
+
+h5{
+    color: #3c3b3b;
+}
+
+.footer-top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-self:center;
+    background-color: #ffd70094;
+    padding: 20px 60px;
+    gap: 30px;
+}
+
+.icon{
+    display: flex;
+    gap: 20px;
+    
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 30px;
+    background-color: black;
+}
+
+.footer-text{
+    color: #aeaaaa;
+}
